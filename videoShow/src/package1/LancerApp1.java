@@ -35,6 +35,13 @@ public class LancerApp1 {
 		d.ajouterObjet(V);
 		
 		
+		Forme f1=new Etoile(350,100,50,8.f,Color.RED,Color.YELLOW);
+		Forme f2=new PolygoneRegulier(5,240,40,40, 4.0f,Color.DARK_GRAY,null);
+		d.ajouterObjet(f1);
+		d.ajouterObjet(f2);
+		
+		
+		
 		// les trains de cercles avec image et en couleur
 		TrainCercle[] lesTrains= new TrainCercle[10];
 		lesTrains[0] = new TrainCercleImage(d, 10, imgVador); d.ajouterObjet(lesTrains[0]);
